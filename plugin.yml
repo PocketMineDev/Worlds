@@ -1,7 +1,7 @@
 name: Worlds
 main: surva\worlds\Worlds
 version: 2.0.3
-api: 3.0.0
+api: 3.3.0
 
 author: survanetwork
 description: Easy to use but feature rich World Guard Plugin
@@ -11,7 +11,7 @@ commands:
   worlds:
     description: "Worlds"
     usage: "/worlds list\n/worlds create <worldname> [type]\n/worlds <remove|load|unload|tp> <worldname>\n/worlds <copy|rename> <from> <to>\n/worlds set\n/worlds set permission <permissionstring>\n/worlds set gamemode <survival|creative|adventure|spectator>\n/worlds set <build|pvp|damage|drop|hunger|fly> <true|false>\n/worlds unset <permission|gamemode|build|pvp|damage|drop|hunger|fly>"
-    aliases: ["ws"]
+    aliases: ["ws, mw"]
 permissions:
   worlds.list:
     description: "List worlds"
